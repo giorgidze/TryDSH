@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	height:100%;
+	padding:0;
+}
+
+html {
+	height:100%;
+}
+
+div {
+	font-family:Verdana, Arial, sans-serif;
+	font-size:10pt;
+}
+
+.menu_2 {
+	position:absolute;
+	top:5px;
+	right:10px;
+	
+	text-align:right;
+	vertical-align:middle;
+}
+
+
+.obenwhite {
+	color:#444;
+	font-size: 8pt;
+	font-family: verdana, arial, sans-serif;
+}
+
+a.obenwhite {
+	color:#444;
+	text-decoration:none;
+}
+a.obenwhite:hover {
+	text-decoration:underline;
+}
+
+.login_div {
+	position:absolute; 
+	top:43px; 
+	right:20px; 
+	width:328px; 
+	height:80px;
+	z-index:0;
+	
+	opacity:0.8; 
+	filter:alpha(opacity=80);
+	-moz-opactiy:0.8;
+	
+	background-color:#DDD;
+	border: 2px solid #777;
+	
+	visibility:hidden;
+}
+
+.main_div {
+	position:relative;
+	width:650px;
+	top:0px;
+	min-height:100%;
+	 
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:5px solid #CCC;
+	padding:5px;
+	margin-bottom:10px;
+	background-color:white;
+	z-index:3;
+}
+
+.logo {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:170px;
+	background-image:url(logo.jpg);
+}
+
+.menu_1 {
+	position:relative;
+	top:0px;
+	left:0px;
+	
+	padding-bottom:0px;
+	padding:5px;
+	padding-left:10px;
+	background-color:#EEE;
+	margin-bottom:10px;
+	margin-left:-5px;
+	margin-right:-5px;
+}
+
+.menu_1 a {
+	color:black;
+}
+
+.inhalt_div {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+
+.console {
+	position:relative;
+	width:100%;
+	height:330px;
+	margin-bottom:10px;
+}
+
+.content {
+	padding:10px;	
+	position:relative;
+	width:100%;
+	padding-bottom:30px;
+}
+
+.result {
+	position:relative;
+	width:100%;
+	padding-bottom:30px;
+}
+.result#res_haskell {
+	word-wrap:break-word;
+	padding:5px;
+	width:640px;
+	position:relative;
+	z-index:1;
+}
+
+.result_links {
+	padding-top:10px;
+	padding-bottom:6px;
+	padding-left:8px;
+	padding-right:8px;
+	position:relative;
+	z-index:1;
+	border-bottom:1px solid #000;
+	margin-bottom:10px;
+	font-size:8pt;
+}
+
+.result_links a {
+	margin-right:3px;
+	padding:6px 4px 6px 4px;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-top:1px solid #000;
+
+}
+
+.result_links_active, .result_links a:active {
+	color:#FFF;
+	background-color:#777;
+	text-decoration:none;
+	border-bottom:1px solid #777;
+}
+
+.result_links_active:hover {
+	color:#FFF;
+}
+
+.result_links_notactive {
+	color:#000;
+	background-color:#EEE;
+	border-bottom:1px solid #EEE;
+}
+
+.result_links_notactive:hover {
+	background-color:#000;
+	color:#FFF;
+}
+
+#input_area {
+	 width:640px;
+	 height:280px;
+	 border:2px solid #CCC;
+	 padding:3px;
+	 font-family:'Courier New',Courier, monospace;
+}
+
+a {
+   color: blue;
+}
+
+a:hover {
+	color:#FA5;	
+}
+
+textarea, input, select {
+	font-family:verdana, arial, sans-serif;
+	font-size:10pt;
+}
+
+.letzte_zeile {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	height:25px;
+	width:100%;
+	z-index:5;
+	text-align:center;
+}
+
+.letzte_zeile span { 
+	color: #a7a7a7; 
+	font-size: 8pt; 
+	font-family: verdana, arial, sans-serif;
+}
+.letzte_zeile span a {
+	color: #a7a7a7; 
+}
+
+.show_table, .show_table2 {
+	border-spacing:5px;	
+}
+
+.show_table td, .show_table2 td {
+	min-width:20px;
+	padding:5px;
+	/*border:2px solid #FFF;*/
+}
+
+.show_table th {
+	font-weight:normal;
+	text-align:left;
+	padding:5px;
+}
+
+.show_table td[name=first], .show_table2 td[name=first], .show_table th {
+	width:30px;	
+	text-align:left;
+	padding-right:12px;
+	color:#888;
+	background-color:white;
+}
+
+.show_table tr[name=mod1] td[name=values] {
+	background-color:#EEE;
+}
+
+.show_table tr[name=mod0] td[name=values] {
+	background-color:#CCC;
+}
+
+.show_table2 tr[name=mod1] td[name=values] {
+	background-color:#DDD
+}
+
+.show_table2 tr[name=mod0] td[name=values] {
+	background-color:#E9E9E9;
+}
+
+input[type=submit], input[type=button] {
+	width:120px;
+	margin-right:5px;
+}
+
+.headline {
+	font-size:14pt;
+	font-weight: bold;
+	color:#d45e16;	
+	
+	margin-bottom:-10px;
+	margin-top:10px;
+}
+.headline a {
+	color:#d45e16;	
+	text-decoration: none;
+}
+.headline a:hover {
+	text-decoration:underline;
+	color:#d45e16;
+}
+
+.underline {
+	font-size:8pt;	
+	margin-bottom:10px;
+	color:#666;
+}
+.underline a {
+	color:#666;	
+}
+
+.table1 {
+	border-spacing:0;	
+}
+.table1 th {
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	text-align:left;
+	font-size:9pt;
+}
+.table1 td {
+	vertical-align:middle;
+	padding-left:5px;
+	padding-top:6px;
+	padding-bottom:6px;
+}

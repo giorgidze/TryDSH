@@ -1,0 +1,18 @@
+#include <tunables/global>
+
+/home/trydsh/opt/ghc-7.2.1/lib/ghc-7.2.1/ghc {
+  #include <abstractions/base>
+
+  network inet stream,
+
+  /etc/host.conf r,
+  /etc/hosts r,
+  /etc/nsswitch.conf r,
+  /etc/passwd r,
+  /etc/resolv.conf r,
+  /etc/ssl/openssl.cnf r,
+  /home/trydsh/tmp/** r,
+  /home/trydsh/opt/ghc-7.2.1/lib/** mr,
+  /tmp/** rw,
+
+}

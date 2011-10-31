@@ -1,0 +1,8 @@
+#include <tunables/global>
+
+/home/trydsh/opt/ghc-7.2.1/lib/ghc-7.2.1/runghc {
+  #include <abstractions/base>
+
+  /home/trydsh/opt/ghc-7.2.1/bin/ghc-7.2.1 px,
+
+}

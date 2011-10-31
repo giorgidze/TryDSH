@@ -1,0 +1,6 @@
+TryDSH is a web application written in PHP, PostgreSQL, Javascript, HTML and
+CSS. Its main purpose it to provide a web frontend for Database Supported
+Haskell (DSH). User written DSH programs are sandboxed using AppArmor.
+
+TryDSH has been implemented by Tim Digel with contributions from George
+Giorgidze.
